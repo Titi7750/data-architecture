@@ -1,0 +1,4 @@
+.venv/
+output_data/
+*.db
+*.db.wal
