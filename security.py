@@ -12,4 +12,4 @@ def backup_duckdb(source_path, backup_dir):
     shutil.copy2(source_path, backup_path)
     print(f"Backup effectué : {backup_path}")
 
-backup_duckdb('annotated_ultrasound.duckdb', os.getcwd() + '/saved_duckdb')
+backup_duckdb(os.getcwd() + '/database/annotated_ultrasound.duckdb', os.getcwd() + '/saved_duckdb')
