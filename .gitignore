@@ -1,4 +1,5 @@
 .venv/
 output_data/
-*.db
-*.db.wal
+saved_duckdb/
+*.duckdb
+*.duckdb.wal
