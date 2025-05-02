@@ -1,4 +1,7 @@
 .venv/
+logs/
+__pycache__/
 database/
 output_data/
+processed_images/
 saved_duckdb/
